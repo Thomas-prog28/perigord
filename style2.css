@@ -144,7 +144,7 @@ td {
 
 .form_name, .form_email, .form_telephone, .form_textarea {
     /* display: inline-block; */
-    height: 35px;
+    height: 55px;
     width: 320px;
 }
 
