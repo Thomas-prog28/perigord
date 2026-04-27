@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: quicksand;
+}
+
+body {
+    background-image: url("perigord.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(116, 70, 59);
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: rgb(116, 70, 59);
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+a {
+    color: green;
+    font-weight: 900;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(253, 249, 0);
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.intro {
+    margin-bottom: 15px;
+}
+
+.card {
+    width: 45%;
+    padding: 20px;
+    display: inline-block;
+    height: 700px;
+}
+
+.t1 {
+    display: inline-block;
+    height: 700px;
+}
+
+.contact {
+    background-color: rgba(253, 173, 173, 0.514);
+    border-radius: 35px;
+    vertical-align: center;
+}
+
+.contact:hover {
+    background-color: rgba(253, 176, 173, 0.705);
+}
+
+.contact p {
+    padding-bottom: 25px;
+}
+
+.infos {
+    background-color: rgba(253, 173, 173, 0.514);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 35px;
+    /* vertical-align: center; */
+}
+
+.infos:hover {
+    background-color: rgb(253, 222, 193, 0.61);
+}
+
+.infos,
+h3,
+p,
+a {
+    display: inline-block;
+    padding-inline: 18px;
+}
+
+.horaire {
+    background-color: rgba(253, 173, 173, 0.514);
+    border-radius: 35px;
+    height: 300px;
+    padding: 20px;
+}
+
+.horaire:hover {
+    background-color: rgba(253, 176, 173, 0.705);
+}
+
+table {
+    display: inline-block;
+    box-shadow: 0 2px 8px yellow;
+    /* box-shadow: inset 0 0 5px yellow; */
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+td, th {
+    border-collapse: collapse;
+    border: 1px solid rgb(104, 63, 53);
+    padding: 20px;
+}
+
+th { 
+    background-color: rgba(165, 233, 210, 0.582); color: white;
+}    
+
+td { 
+    color: white;
+}
+
+.message {
+    background-color: rgba(253, 173, 173, 0.514);
+    /* padding: 20px 100px 20px 100px; */
+    border-radius: 35px;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 270px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.form_mess {
+    width: 90%;
+    /* text-align: center; */
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+}
+
+.form_name, .form_email, .form_telephone, .form_textarea {
+    /* display: inline-block; */
+    height: 35px;
+    width: 320px;
+}
+
+label {
+    display: block;
+    text-align: left;
+}
+
+.message:hover {
+    background-color: rgba(253, 222, 193, 0.61);
+}
+
+.testdiv {
+    display: inline-block;
+    padding-inline: 18px;
+}
+
+.labelblock {
+    display: inline-block;
+}
+
+.decouvrir {
+    background-color: rgba(253, 173, 173, 0.514);
+    padding: 20px 100px 20px 100px;
+    border-radius: 35px;
+    margin-bottom: 15px;
+}
+
+.imgdecouv img{
+    width: 15%;
+    height: 15%;
+    margin: 10px;
+}
+
+.decouvrir:hover {
+    background-color: rgba(253, 176, 173, 0.705);
+}
+
+
+h1,
+h2 {
+    padding-bottom: 20px;
+}

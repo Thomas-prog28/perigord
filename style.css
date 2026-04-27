@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    background-color: rgb(116, 70, 59);
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: rgb(116, 70, 59);
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+a {
+    color: green;
+    font-weight: 900;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(253, 249, 0);
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.intro {
+    margin-bottom: 15px;
+}
+
+.card {
+    width: 45%;
+    height: 700px;
+    padding: 20px;
+    /* display: inline-block; */
+
+}
+
+.contact {
+    background-color: rgba(253, 173, 173, 0.514);
+    border-radius: 35px;
+    /* margin: 15px 0; */
+    display: inline-block;
+    /* width: 45vw;
+    height: 700px; */
+    vertical-align: center;
+}
+
+.contact:hover {
+    background-color: rgba(253, 176, 173);
+}
+
+.contact
+p {
+    padding-bottom: 25px;
+}
+
+/* mark {
+    background-color: rgba(252, 143, 161, 0.863);
+} */
+
+.infos {
+    background-color: rgb(252, 201, 177);
+    /* width: 100%; */
+    /* margin: 0; */
+    border-radius: 35px;
+    /* margin-bottom: 15px; */
+    /* text-align: center; */
+    /* display: inline-block; */
+    /* width: 45vw;
+    height: 700px; */
+    vertical-align: center;
+}
+
+.infos:hover {
+    background-color: rgb(253, 222, 193);
+}
+
+.infos,
+h3,
+p,
+a {
+    display: inline-block;
+    padding-inline: 18px;
+}
+
+.horaire {
+    background-color: rgba(253, 173, 173, 0.514);
+    padding: 50px 100px 50px 100px;
+    width: 100%;
+    border-radius: 35px;
+    margin-bottom: 15px;
+}
+
+.horaire:hover {
+    background-color: rgba(253, 176, 173);
+}
+
+table {
+    display: inline-block;
+}
+
+.message {
+    background-color: rgba(252, 201, 177);
+    padding: 50px 100px 50px 100px;
+    border-radius: 35px;
+    margin-bottom: 15px;
+}
+
+.message:hover {
+    background-color: rgb(253, 222, 193);
+}
+
+.message div {
+    display: inline-block;
+    padding-inline: 18px;
+}
+
+.decouvrir {
+    background-color: rgba(253, 173, 173, 0.514);
+    padding: 50px 100px 100px 100px;
+    border-radius: 35px;
+    margin-bottom: 15px;
+    /* width: 100%; */
+}
+
+.decouvrir:hover {
+    background-color: rgba(253, 176, 173);
+}
+
+/* .decouvrir, p, img {
+    display: inline-block;
+} */
+
+h1,
+h2 {
+    padding-bottom: 20px;
+}
