@@ -139,10 +139,10 @@ td {
     width: 90%;
     /* text-align: center; */
     /* border: 2px solid black; */
-    /* display: inline-block; */
+    display: inline-block;
 }
 
-.form_name, .form_email, .form_telephone, .form_textarea {
+.form_name, .form_email, .form_telephone {
     /* display: inline-block; */
     height: 55px;
     width: 320px;
